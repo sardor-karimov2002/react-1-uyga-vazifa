@@ -29,7 +29,7 @@
   height: 25px;
 }
 
-.header .navbar_item {
+.header .navbar__ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,15 +40,22 @@
   list-style: none;
 }
 
-.header .navbar_item__items {
+.header .navbar__ul__li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 10px;
 }
 
-.header .navbar_item__items .link {
-  font-family: sans-serif;
+.header .navbar__ul__li .link, .header .navbar__ul__li .linkk {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   text-decoration: none;
+  font-weight: 400;
+}
+
+.header .navbar__ul__li .linkk {
+  color: blue;
+  font-family: sans-serif;
+  font-weight: 600;
 }
 /*# sourceMappingURL=Header.css.map */
