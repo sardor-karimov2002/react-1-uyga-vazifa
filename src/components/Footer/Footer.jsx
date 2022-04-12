@@ -4,8 +4,8 @@ import "./Footer.scss"
 const Footer = () => {
     return (
         <div>
-            <img src={svg1} alt="" />
-            Footer
+            {/* <img src={svg1} alt="" />
+            Footer */}
         </div>
     );
 }
